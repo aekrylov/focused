@@ -34,6 +34,10 @@ const rules = {
 
         //реклама
         del(document.getElementById('ads_left'));
+    },
+    'stackoverflow.com': function () {
+        del(document.querySelector('.s-sidebarwidget__yellow'));
+        del(document.getElementById('hot-network-questions'));
     }
 };
 

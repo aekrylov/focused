@@ -6,8 +6,7 @@
 	"content_scripts": [
 		{
 			"matches": [
-				"https://vk.com/*",
-				"https://habr.com/*"
+				"<all_urls>"
 			],
 			"js": [
 				"index.js"
@@ -16,6 +15,7 @@
 	],
 	"permissions": [
 		"https://vk.com/*",
-		"https://habr.com/*"
+		"https://habr.com/*",
+		"https://stackoverflow.com/*"
 	]
 }
