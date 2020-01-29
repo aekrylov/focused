@@ -6,16 +6,13 @@
 	"content_scripts": [
 		{
 			"matches": [
-				"<all_urls>"
+				"https://vk.com/*",
+				"https://habr.com/*",
+				"https://stackoverflow.com/*"
 			],
 			"js": [
 				"index.js"
 			]
 		}
-	],
-	"permissions": [
-		"https://vk.com/*",
-		"https://habr.com/*",
-		"https://stackoverflow.com/*"
 	]
 }
